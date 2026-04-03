@@ -1,4 +1,6 @@
-Telegram AI Agent Bot (n8n Workflow)
+Telegram AI Agent Bot (n8n Workflow
+
+
 A lightweight, scalable Telegram chatbot powered by n8n and OpenAI. This bot receives messages via Telegram, processes them through an intelligent AI Agent, and responds back to the user in real-time.🚀
 
 How It WorksThe workflow follows a linear logic path designed for low latency and high reliability:Telegram Trigger: Watches for new incoming messages in your Telegram bot.AI Agent Node: The brain of the operation. It processes the incoming text using the connected model.OpenAI Chat Model: Provides the LLM capabilities (e.g., GPT-4o or GPT-3.5) to generate contextually relevant responses.Telegram Send Message: Delivers the AI-generated response back to the original sender.
